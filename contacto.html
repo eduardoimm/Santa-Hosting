@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SantaHosting.com.ve - Tu solución de Hosting en Venezuela</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="js/holder.js"></script>
+	</head>
+	<body>
+		<section id="header">
+			<header>
+				
+				<a href="index.html">
+					<img src="holder.js/694x90/text:SantaHosting" />
+				</a>
+				<ul>
+					<li><a href="http://santahosting.com.ve/zonaclientes/index.php/">Zona de Clientes</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="detalles.html">Detalles</a></li>
+				</ul>
+				<div style="clear: both"></div>
+			</header>
+		</section>
+		<section id="principalc">
+			<form action="enviar.php" method="post">
+				*Nombre completo:<input type="text" name="nombre" required="required" /><br />
+				*e-mail:<input type="email" name="email" required="required"/><br />
+				*Número de teléfono:<input type="tel" name="telefono" required="required"/><br />
+				Nombre de tu empresa:<input type="text" name="empresa" /><br />
+				*Contactar por:<input type="radio" name="contactar" value="email" >e-mail
+							   <input type="radio" name="contactar" value="telefono" required="required">Teléfono<br />
+				*Información adicional:<input type="text" name="adicional" id="infoadicional" required="required"/><br />
+				<input type="submit" value="Enviar" /><br />
+				<small>Los campos marcados con asterisco * son obligatorios.</small>
+			</form>
+		</section>
+	</body>
+</html>
